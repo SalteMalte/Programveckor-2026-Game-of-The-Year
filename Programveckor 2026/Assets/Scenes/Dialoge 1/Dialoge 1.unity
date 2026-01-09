@@ -616,7 +616,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 797463842}
-        m_TargetAssemblyTypeName: Scenechanger, Assembly-CSharp
+        m_TargetAssemblyTypeName: Scenechanger1, Assembly-CSharp
         m_MethodName: scenechanger
         m_Mode: 1
         m_Arguments:
@@ -674,9 +674,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 797463837}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8e1ecc06c097f443a3a07e77c67061c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b14a60a74982294cb2c606ef94c64ba, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Scenechanger
+  m_EditorClassIdentifier: Assembly-CSharp::Scenechanger1
 --- !u!1 &888779933
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,6 +917,7 @@ GameObject:
   - component: {fileID: 1534959236}
   - component: {fileID: 1534959235}
   - component: {fileID: 1534959234}
+  - component: {fileID: 1534959237}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -987,7 +988,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1534959235}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1534959237}
+        m_TargetAssemblyTypeName: Scenechanger2, Assembly-CSharp
+        m_MethodName: scenechanger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1534959235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1026,6 +1039,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534959232}
   m_CullTransparentMesh: 1
+--- !u!114 &1534959237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534959232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4ae478305e6ac94eb2b227bfb9c9373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Scenechanger2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

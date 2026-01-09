@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dialoge 1/Dialoge 1.unity
     guid: 415c9c353e2cd4540a6e1336c9b0412c
+  - enabled: 1
+    path: Assets/Scenes/Dialoge 1/Dialoge 1.2.1.unity
+    guid: 460b2909849b0a9489536f14b793d8a6
+  - enabled: 1
+    path: Assets/Scenes/Dialoge 1/Dialoge 1.2.2.unity
+    guid: 5a1460d586585684c8f3a8263b866e1c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
