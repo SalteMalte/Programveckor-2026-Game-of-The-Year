@@ -11,12 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene 1.unity
     guid: bc4a644e706fe66458fff366d1927962
-<<<<<<< HEAD
   - enabled: 1
     path: Assets/Scenes/Boss fight.unity
     guid: 245ce8566ffe94b46be9817a12c480e4
-=======
->>>>>>> fa31cbc9b0634c400d3b34edefbf88feb37518cb
+  - enabled: 1
+    path: Assets/Scenes/Dialoge 1/Dialoge 1.unity
+    guid: 415c9c353e2cd4540a6e1336c9b0412c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

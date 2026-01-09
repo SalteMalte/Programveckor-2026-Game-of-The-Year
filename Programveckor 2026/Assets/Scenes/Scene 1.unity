@@ -297,7 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ca4721434c1a54e9643d67b6a7c853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
-  newSceneName: Boss fight
+  newSceneName: Dialoge 1
 --- !u!1001 &994476908
 PrefabInstance:
   m_ObjectHideFlags: 0
