@@ -12,27 +12,30 @@ public class Playermovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        rb.linearVelocity = new Vector2(0, 0);
-        if (Input.GetKey(KeyCode.S))
-        {
-            rb.linearVelocity = new Vector2(0, -5);
-        }
+        float x = 0;
+        float y = 0;
 
         if (Input.GetKey(KeyCode.W))
         {
-            rb.linearVelocity = new Vector2(0, 5);
+            y = 5;
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            y = -5;
         }
 
         if (Input.GetKey(KeyCode.A))
         {
-            rb.linearVelocity = new Vector2(-5, 0);
+            x = -5;
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            rb.linearVelocity = new Vector2(5, 0);
+            x = 5;
         }
+
+        rb.linearVelocity = new Vector2(x, y);
     }
 }
 
