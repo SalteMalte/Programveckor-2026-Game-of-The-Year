@@ -1,27 +1,9 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-=======
-using System.Collections.Generic;
-using UnityEngine;
->>>>>>> Stashed changes
-=======
-using System.Collections.Generic;
-using UnityEngine;
->>>>>>> Stashed changes
-=======
-using System.Collections.Generic;
-using UnityEngine;
->>>>>>> Stashed changes
-=======
-using System.Collections.Generic;
-using UnityEngine;
->>>>>>> Stashed changes
+
 
 public class GameManager : MonoBehaviour
 {
@@ -33,19 +15,9 @@ public class GameManager : MonoBehaviour
     private int emptyLocation;
     private int size;
     private bool shuffling = false;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
     private bool started = false;
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
 
     private void CreateGamePieces(float gapThickness)
     {
@@ -92,10 +64,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
+
         //if (!shuffling && CheckCompletion())
         //{
         if (!started && !shuffling)
@@ -106,28 +76,13 @@ public class GameManager : MonoBehaviour
         }
 
         //  }
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
         if (!shuffling && CheckCompletion())
         {
             shuffling = true;
             StartCoroutine(WaitShuffle(0.5f));
         }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
@@ -147,10 +102,7 @@ public class GameManager : MonoBehaviour
             }
 
         }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
 
         if (CheckCompletion())
         {
@@ -205,14 +157,7 @@ public class GameManager : MonoBehaviour
                 count++;
             }
         }
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
     }
     private bool SwapIfValid(int i, int offset, int colCheck)
     {
