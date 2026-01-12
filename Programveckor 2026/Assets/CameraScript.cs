@@ -1,0 +1,30 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class CameraScript : MonoBehaviour
+{
+
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Invoke("scenechanger", 1.5f);
+        }
+
+
+
+
+    }
+    public void scenechanger()
+    {
+        SceneManager.LoadScene(2);
+    }
+}
