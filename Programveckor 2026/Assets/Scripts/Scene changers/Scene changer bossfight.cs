@@ -9,7 +9,7 @@ public class Scenechanger : MonoBehaviour
     {
 
     }
-
+    public int x = 0;
     // Update is called once per frame
     void Update()
     {
@@ -17,6 +17,6 @@ public class Scenechanger : MonoBehaviour
     }
     public void scenechanger()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(x);
     }
 }
