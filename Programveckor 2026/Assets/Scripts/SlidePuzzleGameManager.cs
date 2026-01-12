@@ -1,9 +1,14 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+=======
+using System.Collections.Generic;
+using UnityEngine;
+>>>>>>> Stashed changes
 =======
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,7 +30,10 @@ public class GameManager : MonoBehaviour
     private bool shuffling = false;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     private bool started = false;
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -78,6 +86,7 @@ public class GameManager : MonoBehaviour
     {
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         //if (!shuffling && CheckCompletion())
         //{
         if (!started && !shuffling)
@@ -91,12 +100,17 @@ public class GameManager : MonoBehaviour
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         if (!shuffling && CheckCompletion())
         {
             shuffling = true;
             StartCoroutine(WaitShuffle(0.5f));
         }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -119,6 +133,7 @@ public class GameManager : MonoBehaviour
             }
 
         }
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 
@@ -175,6 +190,8 @@ public class GameManager : MonoBehaviour
                 count++;
             }
         }
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
