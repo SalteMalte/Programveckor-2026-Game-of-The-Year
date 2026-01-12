@@ -35,7 +35,39 @@ public class Playermovement : MonoBehaviour
             x = 5;
         }
 
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            y = 5;
+        }
+
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            y = -5;
+        }
+
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            x = -5;
+        }
+
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            x = 5;
+        }
+
+
         rb.linearVelocity = new Vector2(x, y);
+
+
+
+
+
+
+
+
+
+
+
     }
 }
 
