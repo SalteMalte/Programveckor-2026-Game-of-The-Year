@@ -1,7 +1,9 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Press_camera_man : MonoBehaviour
+public class Scenechanger1 : MonoBehaviour
 {
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,8 +15,8 @@ public class Press_camera_man : MonoBehaviour
     {
 
     }
-
-
+    public void scenechanger()
+    {
+        SceneManager.LoadScene(4);
+    }
 }
-
-
