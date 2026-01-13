@@ -4,16 +4,15 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< HEAD
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Sliding Game Puzzle test.unity
+    path: Assets/Scenes/SlidePuzzle/Sliding Game Puzzle test.unity
     guid: ce316f2ec95493340b4e388e22a81ccd
   - enabled: 1
-    path: Assets/Scenes/CompleteSlidingGamePictureTest.unity
+    path: Assets/Scenes/SlidePuzzle/CompleteSlidingGamePictureTest.unity
     guid: 0ce58535c7c23204ab17005a8857a7da
   - enabled: 1
     path: Assets/Scenes/Scene 1.unity
@@ -38,8 +37,4 @@ EditorBuildSettings:
     guid: 71d12ec87bc7a204db436459b1174d1a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-=======
-  m_Scenes: []
-  m_configObjects: {}
->>>>>>> e2b376a5d370a2b84134fa4ed13bde46ca5b0bf5
   m_UseUCBPForAssetBundles: 0
