@@ -41,7 +41,8 @@ public class ChangeBackToMap : MonoBehaviour
     }
     public void scenechangetopuzzle1()
     {
-        //spara position
+        PlayerPrefs.SetFloat("posX", PlayerPosition.x);
+        PlayerPrefs.SetFloat("posY", PlayerPosition.y);
         SceneManager.LoadScene(1);
     }
 
