@@ -1,3 +1,4 @@
+using UnityEditor.SearchService;
 using UnityEngine;
 
 public class Heathscript : MonoBehaviour
@@ -35,6 +36,7 @@ public class Heathscript : MonoBehaviour
         
         if (currentHealth <= 0)
         {
+            
             Debug.Log("Dead");
         }
     }
