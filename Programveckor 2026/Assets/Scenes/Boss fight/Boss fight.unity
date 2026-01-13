@@ -1926,6 +1926,10 @@ PrefabInstance:
       value: Spawn triangle
       objectReference: {fileID: 0}
     - target: {fileID: 7744264923277175058, guid: dc886834d8e61184584a68247d3e306b, type: 3}
+      propertyPath: timer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744264923277175058, guid: dc886834d8e61184584a68247d3e306b, type: 3}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 921878111}
@@ -2733,6 +2737,10 @@ PrefabInstance:
     - target: {fileID: 6635058977836022422, guid: 31c065850403bc647903543fc333f0e8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205375281205580229, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: x
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
