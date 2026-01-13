@@ -23,7 +23,7 @@ public class ChangeBackToMap : MonoBehaviour
         {
             Invoke("scenechangerbacktomap", 0.5f);
         }
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.C) && ChangeBackToMapFromPuzzle.CompletedPuzzleOne != true)
         {
             print(x + " " + y);
             if (PlayerPosition.y < y + 1 && PlayerPosition.y > y - 1 && PlayerPosition.x < x + 1 && PlayerPosition.x > x - 1 && ChangeBackToMap.PlayerScene == 3)
@@ -46,12 +46,4 @@ public class ChangeBackToMap : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        try
-        {
-            SceneToGo = collision.gameObject.GetComponent<PuzzleObject>().SceneName;
-        }
-        catch { }
-    }
 }
