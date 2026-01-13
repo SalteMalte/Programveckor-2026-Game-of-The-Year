@@ -1,22 +1,27 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Scenechanger : MonoBehaviour
+public class Playerattack : MonoBehaviour
 {
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
 
     }
-    public int x = 0;
+
+    int bosshealth = 0;
     // Update is called once per frame
     void Update()
     {
 
     }
-    public void scenechanger()
+    public void scenechange()
     {
-        SceneManager.LoadScene(x);
+        bosshealth = +1;
+        if (bosshealth == 5)
+        {
+            SceneManager.LoadScene(3);
+        }
+
     }
 }
