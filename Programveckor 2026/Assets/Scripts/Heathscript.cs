@@ -18,27 +18,7 @@ public class Heathscript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //radera denna ->
-        float x = 0;
-        float y = 0;
-        if (Input.GetKey(KeyCode.W))
-        {
-            y = 5;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            y = -5;
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            x = -5;
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            x = 5;
-        }
-        rb.linearVelocity = new Vector2(x, y);
-        //<--void update behöver vara tom 
+       
     }
 
     //här är health script
