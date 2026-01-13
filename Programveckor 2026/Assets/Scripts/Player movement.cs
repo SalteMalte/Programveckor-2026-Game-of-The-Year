@@ -7,10 +7,6 @@ public class Playermovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        float hämtadX = PlayerPrefs.GetFloat("posX", 0);
-        float hämtadY = PlayerPrefs.GetFloat("posY", 0);
-        transform.position = new Vector2(hämtadX, hämtadY);
-
     }
 
     // Update is called once per frame
