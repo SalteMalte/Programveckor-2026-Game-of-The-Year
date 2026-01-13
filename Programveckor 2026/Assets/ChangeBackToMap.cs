@@ -46,12 +46,4 @@ public class ChangeBackToMap : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        try
-        {
-            SceneToGo = collision.gameObject.GetComponent<PuzzleObject>().SceneName;
-        }
-        catch { }
-    }
 }
