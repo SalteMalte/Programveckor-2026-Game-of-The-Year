@@ -6,6 +6,8 @@ public class Buttonappearance : MonoBehaviour
     Transform spawnLocation;
     [SerializeField]
     GameObject prefab;
+    [SerializeField]
+    Canvas canvas;
     public Renderer myrenderer2;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,6 +31,7 @@ public class Buttonappearance : MonoBehaviour
         if (timer < 0 && !squareVisible)
         {
             GameObject spawnedObject = Instantiate(prefab, pos, Quaternion.identity);
+            spawnedObject.transform.parent = canvas.transform;
             squareVisible = true;
         }
 

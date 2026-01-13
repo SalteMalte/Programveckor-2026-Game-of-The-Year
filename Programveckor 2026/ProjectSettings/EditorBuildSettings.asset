@@ -15,20 +15,14 @@ EditorBuildSettings:
     path: Assets/Scenes/CompleteSlidingGamePictureTest.unity
     guid: 0ce58535c7c23204ab17005a8857a7da
   - enabled: 1
-    path: Assets/Scenes/Boss fight/Boss fight.unity
-    guid: 245ce8566ffe94b46be9817a12c480e4
+    path: Assets/Scenes/Scene 1.unity
+    guid: bc4a644e706fe66458fff366d1927962
   - enabled: 1
     path: Assets/Scenes/CameraScene.unity
     guid: 9ea48218ca405ca4788dd45ad8b685a4
   - enabled: 1
-    path: Assets/Scenes/New Scene.unity
-    guid: dd8e7f0a84b242a44a2f46297d9b1039
-  - enabled: 1
-    path: Assets/Scenes/Boss fight/Bossfight 1.3.unity
-    guid: 96b3e689ef316804db9bea8175f83c19
-  - enabled: 1
-    path: Assets/Scenes/Boss fight/Boss fight 1.2.unity
-    guid: 8ac0fa52ad62ec7439ccff7ae97316ab
+    path: Assets/Scenes/Dialoge 1/Dialoge 1.unity
+    guid: 415c9c353e2cd4540a6e1336c9b0412c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
