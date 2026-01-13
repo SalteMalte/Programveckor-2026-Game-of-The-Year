@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boss fight/Boss fight.unity
     guid: 245ce8566ffe94b46be9817a12c480e4
+  - enabled: 1
+    path: Assets/Scenes/Boss fight/You win.unity
+    guid: 71d12ec87bc7a204db436459b1174d1a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
