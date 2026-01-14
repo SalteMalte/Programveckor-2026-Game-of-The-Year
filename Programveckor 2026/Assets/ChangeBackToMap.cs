@@ -34,6 +34,7 @@ public class ChangeBackToMap : MonoBehaviour
     }
     public void scenechangerbacktomap()
     {
+        print("changeback");
         //spara position
         PlayerPrefs.SetFloat("posX", PlayerPosition.x);
         PlayerPrefs.SetFloat("posY", PlayerPosition.y);
