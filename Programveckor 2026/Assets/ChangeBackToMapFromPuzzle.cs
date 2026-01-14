@@ -19,6 +19,6 @@ public class ChangeBackToMapFromPuzzle : MonoBehaviour
 
     public void ChangeBackToMapFromPussel()
     {
-        SceneManager.LoadScene(ChangeBackToMap.PlayerScene);
+        SceneManager.LoadScene(14);
     }
 }
