@@ -7723,7 +7723,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: -210}
+  m_AnchoredPosition: {x: -192, y: -159}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304528935
@@ -11736,7 +11736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Heathscript
   particles: {fileID: 1340033233}
-  maxHealth: 15
+  maxHealth: 20
   Scene: Death scene
 --- !u!1001 &6626172767055697145
 PrefabInstance:
