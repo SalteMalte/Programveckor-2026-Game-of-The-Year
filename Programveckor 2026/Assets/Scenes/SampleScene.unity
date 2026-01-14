@@ -622,11 +622,45 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 9139345648624803499, guid: 8d2920c02ae9fb44bbb2385d15cd60ce, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6944276043323234106}
+    - target: {fileID: 9139345648624803499, guid: 8d2920c02ae9fb44bbb2385d15cd60ce, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PressStartButtonChangeScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139345648624803499, guid: 8d2920c02ae9fb44bbb2385d15cd60ce, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StartChangeSceneScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8596956334360516638, guid: 8d2920c02ae9fb44bbb2385d15cd60ce, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6469589018759019749, guid: 8d2920c02ae9fb44bbb2385d15cd60ce, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6944276043323234106}
   m_SourcePrefab: {fileID: 100100000, guid: 8d2920c02ae9fb44bbb2385d15cd60ce, type: 3}
+--- !u!1 &6944276043323234105 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6469589018759019749, guid: 8d2920c02ae9fb44bbb2385d15cd60ce, type: 3}
+  m_PrefabInstance: {fileID: 6944276043323234104}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6944276043323234106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6944276043323234105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23aac3f6f99c5ef489c21d7d9f9a50e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  x: 3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

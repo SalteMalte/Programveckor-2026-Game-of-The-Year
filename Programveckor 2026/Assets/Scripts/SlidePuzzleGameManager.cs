@@ -164,7 +164,7 @@ public class GameManager : MonoBehaviour
         if (((i % size) != colCheck) && ((i + offset) == emptyLocation))
         {
             (pieces[i], pieces[i + offset]) = (pieces[i + offset], pieces[i]);
-            (pieces[i].localPosition, pieces[i + offset].localPosition) = ((pieces[i + offset].localPosition, pieces[i].localPosition));
+            (pieces[i].localPosition, pieces[i + offset].localPosition) = (pieces[i + offset].localPosition, pieces[i].localPosition);
             emptyLocation = i;
             return true;
         }

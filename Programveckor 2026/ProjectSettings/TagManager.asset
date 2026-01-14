@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Tag11
+  - Doorway
   layers:
   - Default
   - TransparentFX
