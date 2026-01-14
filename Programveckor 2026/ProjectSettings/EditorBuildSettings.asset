@@ -48,8 +48,8 @@ EditorBuildSettings:
     path: Assets/Scenes/SlidePuzzle/Sliding Game 2 to dialogue.unity
     guid: ca0c148d8880de84a94fbd83aae4c8ac
   - enabled: 1
-    path: Assets/Scenes/SlidePuzzle/CompleteSlidePuzzle2.unity
-    guid: 3417f8e162b193e43903e809784236eb
+    path: Assets/Scenes/DialogeSystem.unity
+    guid: a80f789198e009741a31349b9944dea7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
