@@ -1,4 +1,4 @@
-using UnityEditor.SearchService;
+
 using UnityEngine;
 
 public class Heathscript : MonoBehaviour
@@ -7,7 +7,7 @@ public class Heathscript : MonoBehaviour
     public ParticleSystem particles;
     public int maxHealth = 20;
     int currentHealth;
-    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,7 +19,7 @@ public class Heathscript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+
     }
 
     //här är health script
@@ -33,10 +33,10 @@ public class Heathscript : MonoBehaviour
             Debug.Log("Current Health: " + currentHealth + "/" + maxHealth);
             particles.Play();
         }
-        
+
         if (currentHealth <= 0)
         {
-            
+
             Debug.Log("Dead");
         }
     }

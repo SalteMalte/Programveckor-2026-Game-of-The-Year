@@ -14,6 +14,7 @@ public class CameraScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ChangeBackToMap.PlayerScene = SceneManager.GetActiveScene().buildIndex;
         if (Input.GetKeyDown(KeyCode.E))
         {
             Invoke("scenechanger", 1.5f);
@@ -25,6 +26,6 @@ public class CameraScript : MonoBehaviour
     }
     public void scenechanger()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(4);
     }
 }
