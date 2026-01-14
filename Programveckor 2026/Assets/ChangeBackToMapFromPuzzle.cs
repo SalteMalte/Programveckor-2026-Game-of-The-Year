@@ -7,7 +7,7 @@ public class ChangeBackToMapFromPuzzle : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        CompletedPuzzleOne = true;
+        //CompletedPuzzleOne = true;
         Invoke("ChangeBackToMapFromPussel", 2f);
     }
 
