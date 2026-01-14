@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 143654332}
   - component: {fileID: 143654331}
   - component: {fileID: 143654330}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1395,7 +1395,7 @@ GameObject:
   - component: {fileID: 792871095}
   - component: {fileID: 792871094}
   - component: {fileID: 792871093}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Square (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1625,7 +1625,7 @@ GameObject:
   - component: {fileID: 865349951}
   - component: {fileID: 865349950}
   - component: {fileID: 865349949}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Square (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2831,7 +2831,7 @@ GameObject:
   - component: {fileID: 1658874641}
   - component: {fileID: 1658874640}
   - component: {fileID: 1658874639}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Square (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3444,6 +3444,10 @@ PrefabInstance:
     - target: {fileID: 3042168197894963455, guid: 3caa2d562d43a3e4eb1812f79490d8b6, type: 3}
       propertyPath: m_Name
       value: Square (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042168197894963455, guid: 3caa2d562d43a3e4eb1812f79490d8b6, type: 3}
+      propertyPath: m_Layer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7108117260604806477, guid: 3caa2d562d43a3e4eb1812f79490d8b6, type: 3}
       propertyPath: m_LocalPosition.x

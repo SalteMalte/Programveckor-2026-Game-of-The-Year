@@ -1,17 +1,17 @@
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Heathscript : MonoBehaviour
 {
-    Rigidbody2D rb;
     public ParticleSystem particles;
     public int maxHealth = 20;
     int currentHealth;
+    public string Scene;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         Debug.Log("Current Health: " + currentHealth + "/" + maxHealth);
     }
@@ -36,8 +36,10 @@ public class Heathscript : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-
-            Debug.Log("Dead");
+            SceneManager.LoadScene(Scene);
         }
     }
+
+
 }
+

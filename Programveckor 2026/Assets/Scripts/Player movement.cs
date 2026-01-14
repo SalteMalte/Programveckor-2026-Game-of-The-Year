@@ -2,11 +2,16 @@ using UnityEngine;
 
 public class Playermovement : MonoBehaviour
 {
+    Transform trf;
     Rigidbody2D rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        trf = GetComponent<Transform>();
         rb = GetComponent<Rigidbody2D>();
+        float positionx = PlayerPrefs.GetFloat("posX", 0);
+        float positiony = PlayerPrefs.GetFloat("posY", 0);
+        trf.position = new Vector2(positionx, positiony);
     }
 
     // Update is called once per frame
