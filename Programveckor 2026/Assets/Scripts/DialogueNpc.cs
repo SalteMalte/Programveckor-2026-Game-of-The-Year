@@ -7,7 +7,15 @@ public class DialogueNpc : MonoBehaviour
     bool isPlayerNearby = false;
     public GameObject DialogueNpcGame;
     public TMP_Text TMPgame;
-
+    [SerializeField]
+    Transform spawnLocation;
+    [SerializeField]
+    GameObject prefab;
+    [SerializeField]
+    Canvas canvas;
+    public Renderer myrenderer2;
+    public float timer = 0;
+    bool squareVisible = false;
 
     int step = 0;
     void Start()
@@ -23,6 +31,7 @@ public class DialogueNpc : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && isPlayerNearby == true)
         {
             ShowDialogue();
+            timer -= Time.deltaTime;
         }
 
 
@@ -51,7 +60,21 @@ public class DialogueNpc : MonoBehaviour
         else if (step == 1)
         {
             TMPgame.text = "Spring!!";
-            Invoke(nameof(EndDialogue), 2f);
+            myrenderer2.enabled = false;
+
+
+
+            Vector2 pos = transform.position;
+            if (spawnLocation != null)
+            {
+                pos = spawnLocation.position;
+            }
+            if (timer < 0 && !squareVisible)
+            {
+                GameObject spawnedObject = Instantiate(prefab, pos, Quaternion.identity);
+                spawnedObject.transform.parent = canvas.transform;
+                squareVisible = true;
+            }
         }
 
 
