@@ -6,7 +6,7 @@ public class ChangeBackToMap : MonoBehaviour
     public static Vector3 PlayerPosition;
     public static int PlayerScene;
     float x = 3;
-    float y = 4;
+    float y = 1;
 
     private string SceneToGo;
 
