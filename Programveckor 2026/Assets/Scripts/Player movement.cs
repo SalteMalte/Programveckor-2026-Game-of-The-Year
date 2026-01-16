@@ -25,48 +25,64 @@ public class Playermovement : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             y = 5;
+            x = 0;
             anim.Play("Up");
         }
 
         if (Input.GetKey(KeyCode.S))
         {
             y = -5;
+            x = 0;
             anim.Play("Down");
         }
 
         if (Input.GetKey(KeyCode.A))
         {
             x = -5;
+            y = 0;
             anim.Play("Left", 0);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
             x = 5;
+            y = 0;
             anim.Play("Right");
         }
 
         if (Input.GetKey(KeyCode.UpArrow))
         {
             y = 5;
-            anim.Play("Up");
+            x = 0;
+            if (y == 5 && x == 0)
+            {
+                anim.Play("Up");
+            }
+
         }
 
         if (Input.GetKey(KeyCode.DownArrow))
         {
             y = -5;
-            anim.Play("Down");
+            x = 0;
+            if (y == -5 && x == 0)
+            {
+                anim.Play("Down");
+            }
+
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             x = -5;
+            y = 0;
             anim.Play("Left");
         }
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
             x = 5;
+            y = 0;
             anim.Play("Right");
         }
         if (x == 0 && y == 0)
