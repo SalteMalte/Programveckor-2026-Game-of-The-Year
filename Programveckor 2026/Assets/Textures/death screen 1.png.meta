@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0d15ae2c1c2da3647a32544a8b482928
+guid: 314f24edf3ac6914393610d9ff766673
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3177703152804382613
-    second: death screen_0
+      213: 872386602331741705
+    second: death screen 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: death screen_0
+      name: death screen 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b68b47791d786e3d0800000000000000
-      internalID: -3177703152804382613
+      spriteID: 90e1bc22ef65b1c00800000000000000
+      internalID: 872386602331741705
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      death screen_0: -3177703152804382613
+      death screen 1_0: 872386602331741705
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
