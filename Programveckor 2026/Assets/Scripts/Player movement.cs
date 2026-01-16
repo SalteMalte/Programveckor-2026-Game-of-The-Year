@@ -25,13 +25,13 @@ public class Playermovement : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             y = 5;
-            anim.Play("walk up");
+            anim.Play("Up");
         }
 
         if (Input.GetKey(KeyCode.S))
         {
             y = -5;
-            anim.Play("walk down");
+            anim.Play("Down");
         }
 
         if (Input.GetKey(KeyCode.A))
@@ -43,7 +43,7 @@ public class Playermovement : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             x = 5;
-            anim.Play("walk right");
+            anim.Play("Right");
         }
 
         if (Input.GetKey(KeyCode.UpArrow))
@@ -55,7 +55,7 @@ public class Playermovement : MonoBehaviour
         if (Input.GetKey(KeyCode.DownArrow))
         {
             y = -5;
-            anim.Play("walk down");
+            anim.Play("Down");
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
@@ -67,7 +67,7 @@ public class Playermovement : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow))
         {
             x = 5;
-            anim.Play("walk right");
+            anim.Play("Right");
         }
         if (x == 0 && y == 0)
         {
