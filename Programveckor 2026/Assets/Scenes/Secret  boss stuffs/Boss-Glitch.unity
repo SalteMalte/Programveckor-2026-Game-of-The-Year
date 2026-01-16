@@ -3447,7 +3447,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7744264923277175058, guid: dc886834d8e61184584a68247d3e306b, type: 3}
       propertyPath: timer
+<<<<<<< Updated upstream
       value: 8
+=======
+      value: 7
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 7744264923277175058, guid: dc886834d8e61184584a68247d3e306b, type: 3}
       propertyPath: canvas

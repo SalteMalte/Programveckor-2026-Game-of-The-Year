@@ -62,9 +62,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Secret  boss stuffs/Glitch-Boss_3.unity
     guid: 71725ce1b0a08704bb505c5fbcfd2536
+<<<<<<< Updated upstream
   - enabled: 1
     path: Assets/Scenes/Secret  boss stuffs/boss Face 4.unity
     guid: 03c48298d69f28f4ca46b02fcca6cf03
+=======
+>>>>>>> Stashed changes
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
