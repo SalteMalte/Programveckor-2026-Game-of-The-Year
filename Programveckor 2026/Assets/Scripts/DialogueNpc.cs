@@ -48,18 +48,18 @@ public class DialogueNpc : MonoBehaviour
 
     public void OnYesClicked()
     {
-        Debug.Log("Spelaren valde att prata med NPC:n!");
+        Debug.Log("The Player Chose To Speak To The NPC!");
         Time.timeScale = 1f;
         //DialogueNpcGame.SetActive(false);
         if (step == 0)
         {
             step = 1;
-            TMPgame.text = "Vill du hitta honom? Han gick åt den här riktningen --->  (tryck Ja)";
+            TMPgame.text = "If You Want To Find Your Brother Turn Right ---> ";
 
         }
         else if (step == 1)
         {
-            TMPgame.text = "Spring!!";
+            TMPgame.text = "RUN!";
             myrenderer2.enabled = false;
 
 
@@ -85,7 +85,7 @@ public class DialogueNpc : MonoBehaviour
     // Här kan du starta NPC-dialogen, t.ex. öppna ny textsekvens
     public void OnNoClicked()
     {
-        Debug.Log("Spelaren valde att inte prata.");
+        Debug.Log("The Player Chose Not To Speak To The NPC!");
         DialogueNpcGame.SetActive(false);
         Time.timeScale = 1f;
         if (step == 0)
@@ -95,7 +95,7 @@ public class DialogueNpc : MonoBehaviour
         }
         else if (step == 1)
         {
-            TMPgame.text = "Ok hejdå";
+            TMPgame.text = "Ok Goodbye";
             Invoke(nameof(EndDialogue), 2f);
         }
     }
@@ -108,7 +108,7 @@ public class DialogueNpc : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print("NPC i närheten");
+        print("NPC Is Close");
         isPlayerNearby = true;
     }
     void OnTriggerExit2D(Collider2D collision)

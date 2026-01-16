@@ -844,7 +844,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hej, vill du ha en ledtr\xE5d om vart din bror kan vara?"
+  m_text: Are You Looking For A Special Someone
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1650,7 +1650,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 373208278647025316, guid: 31c065850403bc647903543fc333f0e8, type: 3}
       propertyPath: m_text
-      value: 'Spring!!!
+      value: 'RUN!!!
 
 '
       objectReference: {fileID: 0}
@@ -1745,6 +1745,66 @@ PrefabInstance:
     - target: {fileID: 7190202213960550100, guid: 31c065850403bc647903543fc333f0e8, type: 3}
       propertyPath: m_LocalScale.y
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065085837820262178, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065085837820262178, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065085837820262178, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: m_Colors.m_NormalColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065085837820262178, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 0.013567397
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065085837820262178, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 0.013567397
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065085837820262178, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 0.61635214
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065085837820262178, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065085837820262178, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065085837820262178, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: m_Colors.m_DisabledColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065085837820262178, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065085837820262178, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065085837820262178, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065085837820262178, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0.038269747
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065085837820262178, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.038269747
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065085837820262178, guid: 31c065850403bc647903543fc333f0e8, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 0.8113208
       objectReference: {fileID: 0}
     - target: {fileID: 8205375281205580229, guid: 31c065850403bc647903543fc333f0e8, type: 3}
       propertyPath: x
