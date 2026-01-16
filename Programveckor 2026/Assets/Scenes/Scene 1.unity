@@ -691,7 +691,7 @@ GameObject:
   - component: {fileID: 1406803202}
   - component: {fileID: 1406803204}
   m_Layer: 0
-  m_Name: horror protag final10_0
+  m_Name: Horror-Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
