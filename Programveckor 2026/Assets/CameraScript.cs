@@ -21,7 +21,7 @@ public class CameraScript : MonoBehaviour
         print("camera update" + ChangeBackToMap.PlayerScene);
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Invoke("scenechanger", 1.5f);
+            Invoke("scenechanger", 0.1f);
         }
 
 

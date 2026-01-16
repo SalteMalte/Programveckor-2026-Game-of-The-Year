@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 6c54090717e49f44ab216671f1ce7954
+guid: 5f24f430c76767b479a410c1fa65c460
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5179990772070384646
-    second: horror protag final15_0
-  - first:
-      213: -3747916384562615569
-    second: horror protag final15_1
+      213: -3744846098528087175
+    second: fixedStart screen_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: horror protag final15_1
+      name: fixedStart screen_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 35
-        width: 178
-        height: 394
+        x: 0
+        y: 0
+        width: 1024
+        height: 512
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fea6742d7e9bcfbc0800000000000000
-      internalID: -3747916384562615569
+      spriteID: 973d9be7052a70cc0800000000000000
+      internalID: -3744846098528087175
       vertices: []
       indices: 
       edges: []
@@ -128,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ba9b2b1243c314348a8af85918108702
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -138,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      horror protag final15_0: 5179990772070384646
-      horror protag final15_1: -3747916384562615569
+      fixedStart screen_0: -3744846098528087175
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
