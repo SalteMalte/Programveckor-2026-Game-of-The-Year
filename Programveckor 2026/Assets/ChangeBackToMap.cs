@@ -5,8 +5,8 @@ public class ChangeBackToMap : MonoBehaviour
 {
     public static Vector3 PlayerPosition;
     public static int PlayerScene;
-    float x = 3;
-    float y = 1;
+    float x = -3;
+    float y = 0;
 
     private string SceneToGo;
 
